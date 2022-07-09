@@ -36,12 +36,8 @@ body {
 
 .search {
     width: 80%;
-    border: 2px solid rgb(0, 0, 0, 0.4);
-}
-
-.search-l {
-    border: 1px solid grey;
-    font-size: 14px;
+    height: 22px;
+    border: 1px solid rgb(0, 0, 0, 0.4);
 }
 
 #title {
@@ -49,6 +45,18 @@ body {
     justify-content: center;
     margin: 10px 0;
     opacity: 0.6;
+}
+
+#not-found {
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .nav-bar ul {
